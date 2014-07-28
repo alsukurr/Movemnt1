@@ -30,7 +30,15 @@ nav.top-nav li{
 	display:inline;
 	list-style-type: none;
 	padding:45px;
-	
+	/*border: yellow solid;*/
+}
+
+nav.top-nav li:hover a{
+	color:#fff;
+}
+
+nav.top-nav li:hover{
+	background-color: #dbdbdb;
 }
 
 nav.top-nav ul{
@@ -48,6 +56,9 @@ nav.top-nav{
 	right: 20px;
 	top: -50px;*/
 }
+.expert{
+	border-top: #fff 2px dotted;
+}
 
 .callexpert h3{
 	vertical-align: middle;
@@ -62,13 +73,12 @@ nav.top-nav{
 
 }
 /* SIDE NAV*/
-ul.side-nav{
+/*ul.side-nav{
  position: absolute;
  top: 0;
  bottom: 0;
  left:-200px;
  background: #fff;
- /*display: none;*/
  margin: 0;
  padding: 0;
  width: 200px;
@@ -96,7 +106,7 @@ ul.side-nav{
 
  .wrapper{
  	width: 100%;
- }
+ }*/
 
 /*========================
 HOME
@@ -130,6 +140,7 @@ section.hero h2{
 
 .signmeup{
 	border: #fff;
+	/*border:yellow solid;*/
 	background-image: url(../images/home/white.png);
 	width: 40%;
 	padding:3%;
@@ -138,16 +149,15 @@ section.hero h2{
 	display: inline-block;
 	position: absolute;
 	left:25%;
-	bottom:2%;
+	/*bottom:2%;*/
 
 	
 }
 
-.signupemail{
-	border:grey solid;
-	background-color: grey;
+.signupemail h3{
+	border:#DBDBDB solid;
+	background-color: #DBDBDB;
 	display: inline-block;
-	padding-top:9px;
 	float: left;
 	padding:10px;
 
@@ -159,12 +169,12 @@ section.hero h2{
 	color: #fff;
 }
 
-.signupfb{
-	border:#3B5999 solid;
-	background-color: #3B5999;
+.signupfb h3{
+	border:#DBDBDB solid;
+	background-color: #DBDBDB;
 	display: inline-block;
 	float:right;
-	padding:5px;
+	padding:10px;
 }
 
 .signupfirst h3{
@@ -178,6 +188,7 @@ section.hero h2{
 /*COLLECTION*/
 .collection,
 .saved{
+	/*border: green solid;*/
 	overflow:hidden;
 	/*padding: 1%;*/
 	margin: 0 auto;
@@ -209,17 +220,20 @@ section.saved ul{
 }
 
 .workout{
-	float: left;
+	float: left;	
 }
+.workoutinfo{
+	padding: 20px;
+}
+
 
 .collection ul li,
 .saved ul li{
-
 	width: 32%;
 	list-style-type: none;
 	margin: 8px;
 	border: 1px #DBDBDB solid;
-	box-shadow: 0 8px 8px -5px #BFBFBF;
+	/*box-shadow: 0 8px 8px -5px #BFBFBF;*/
 }
 
 .ins-pic,
@@ -237,6 +251,7 @@ section.saved ul{
 	vertical-align: middle;
 }
 .info{
+	padding: 0 4px 0;
 	clear:both;
 	border-top: 2px #DBDBDB dotted;
 }
@@ -255,7 +270,7 @@ section.saved ul{
 	padding-right: 10px;
 }
 
-.bookmark{
+svg.bookmark{
 	float:right;
 }
 
@@ -263,19 +278,82 @@ section.saved ul{
 	border:red solid;
 }
 
+.gotolibrary{
+	text-align: center;
+	/*width: 20%;*/
+	/*border: yellow solid;*/
 
+}
+svg{
+	width: 5%;
+	fill:#888888;
+	padding: 0 2px;
+}
+.gotolibrary{
+	background-color: #dbdbdb;
+}
+
+.gotolibrary h2{
+	text-align: center;
+	padding:30px;
+	background-color: #dbdbdb;
+	/*border: #333 1px dotted;*/
+	border-radius: 8px;
+	opacity: 0.5;
+	display: inline-block;
+}
+
+.gotolibrary h2 a{
+	color:#333;
+	z-index: 999;
+}
+
+.gotolibrary h2:hover a{
+	color:#fff;
+	cursor: pointer;
+}
+
+.gotolibrary h2:hover{
+	background-color: #333;
+}
 
 /* FOOTER */
 footer{
-	border:#BEBFBB solid;
-	background-color: #BEBFBB;
-	padding: 5%;
-	margin-top: 10%;
+	background-color: #DBDBDB;
+	overflow:hidden;
+	padding: 0 70px 20px;
+	clear: both;
+
 }
 
 footer ul li{
 	list-style-type: none;
+	display: inline;
 }
+.social{
+	float: left;
+}
+.social svg{
+	width: 50px;
+	padding:0 10px 0;
+}
+.social svg.fblogo{
+	width: 56px;
+}
+.social svg:hover{
+	fill:#fff;
+}
+.extra{
+	float: right;
+}
+.extra span{
+	color:#fff;
+	padding: 5px;
+}
+.extra li a:hover{
+	color:#fff;
+}
+
 
 
 /*========================
@@ -284,51 +362,15 @@ LOGIN
 
 
 body.login{
-	background: url(../images/login.jpg) no-repeat center center fixed; 
-	 -webkit-background-size: cover;
-	 -moz-background-size: cover;
-	 -o-background-size: cover;
+	background: url(../images/login.jpg) no-repeat; 
 	 background-size: cover;
-}
-body.login{
-	width: 100%;
-	height: 100%;
-	font-family:"Questrial";
-	margin: 0 auto;
-}
-
-.or{
-	background: #BEBFBB;
-	color:#fff;
-	width: 80px;
-	height: 80px;
-	display: inline-block;
-	border: 1px #BEBFBB solid;
-	border-radius: 50%;
-	padding: 0;
-	text-align: center;
-	position: absolute;
-	top:100px;
-	left:450px;
-}
-
-.invite{
-	float: right;
-	position: absolute;
-	top:10px;
-	right:20px;
+	 background-attachment: fixed;
+	 /*border: green solid;*/
 }
 
 .fbsignin{
 	display: inline;
 	color:#fff;
-	padding:5px;
-}
-
-.fb{
-	border:#3B5999 solid;
-	background-color: #3B5999;
-	display: inline-block;
 	padding:5px;
 }
 
@@ -340,9 +382,6 @@ body.login{
 	margin:0 auto;
 }
 .email{
-	position: absolute;
-	top:100px;
-	right:10px;
 	width: 600px;
 }
 
@@ -351,34 +390,30 @@ body.login{
 	width: 300px;
 	padding:10px;
 	border-radius: 6px;
+	border: 1px solid #d1d3d4;
+	font-size: 15px;
 	
 }
 .email input.enter{
-	width: 100px;
+	width: 150px;
+	padding: 5px;
+	font-size: 15px;
+	color: #333;
+	cursor: pointer;
 }
 
-.top-nav-login{
-	padding: 4px;
-	background: #fff;
+.loginpage ul{
+	padding: 24px;
+	background-color: #fff;
 	overflow: hidden;
-	/*border: yellow solid;*/
-}
-
-nav.top-nav-login li{
-	display:inline;
-	list-style-type: none;
-	padding:45px;
-}
-
-nav.top-nav-login ul{
-	text-align: center;
+	margin: 0;
 }
 
 .welcome{
 	margin: 0 auto;
 	text-align: center;
 	display: inline-block;
-	padding:10px;
+	padding:60px;
 	position: absolute;
 	left:30%;
 	top:6%;
@@ -460,3 +495,4 @@ iframe{
 	margin: 0 auto;
 	display: inline;
 }
+

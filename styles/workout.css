@@ -1,0 +1,56 @@
+/*========================
+HERO
+========================*/
+
+.start{
+	border: #fff;
+	/*border:yellow solid;*/
+	/*background-image: url(../images/home/white.png);*/
+	background-color: #fff;
+	opacity: 0.5;
+	width: 18%;
+	padding:2%;
+	display: inline-block;
+	position: absolute;
+	left:42%;
+	bottom:28%;
+	color:#333;
+	text-align: center;
+	border-radius: 6px;
+}
+
+.start:hover{
+	cursor: pointer;
+	opacity: 1;
+}
+
+
+
+/*========================
+WORKOUT-INFO
+========================*/
+section.workout-intro{
+	padding: 100px;
+	border:red solid;
+	overflow: hidden;
+}
+
+/*========================
+INSTRUCTIONS
+========================*/
+section.instructions{
+	padding: 100px;
+	border:green solid;
+	overflow: hidden;
+}
+
+
+/*========================
+DONE
+========================*/
+section.done{
+	padding: 100px;
+	border:yellow solid;
+	overflow: hidden;
+}
+

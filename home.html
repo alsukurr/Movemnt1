@@ -8,25 +8,26 @@
 </head>
 <body>
 <!-- SIDE-NAV -->
-<input type="checkbox" id="toggle">
+<!-- <input type="checkbox" id="toggle">
 
 	<ul class="side-nav">
 		<li class="item1">home</li>
 		<li class="item2">my studio</li>
 		<li class="item3">contact</li>
 	</ul>
-
+ -->
 
 <div class="wrapper">
-<label for="toggle"> ☰ <h1 id="movemnt">Movemnt</h1></label>
+<!-- <label for="toggle"> ☰ <h1 id="movemnt">Movemnt</h1></label> -->
 <!-- TOP-NAV -->
-<input type="checkbox" id="toggle">
+<!-- <input type="checkbox" id="toggle"> -->
 
 <nav class="top-nav">
 	<ul>
-		<li class="item1"><a href="home.html">home</a></li>
-		<li class="item2"><a href="profile.html">my studio</a></li>
-		<li class="item3"><a href="#contact">contact</a></li>
+		<li class="item1"><a href="#collection">today's favourites</a></li>
+		<li class="item2"><a href="library.html">past workouts</a></li>
+		<li class="item3"><a href="#contact">signup</a></li>
+		<li class="item4"><a href="">submit a workout</a></li>
 	</ul>
 	
 </nav>
@@ -42,14 +43,14 @@
 		<div class="signmeup">
 			<div class="signupemail">
 				<h3>Sign up with email</h3>
-				<img src="images/home/email.png">
+				<!-- <img src="images/home/email.png"> -->
 				<!-- Designed by Parker Bennett -->
 			</div>
 
 			<div class="signupfb">
-				<h3>Sign up with  Facebook</h3>
-				<img src="images/home/fb.png">
-				<!-- Designed by Maria Maldonado -->
+				<h3>Apply to be featured</h3>
+				<!-- <img src="images/home/fb.png"> -->
+			
 			</div>
 
 			<div class=signupfirst>
@@ -59,206 +60,147 @@
 </section>
 
 <!-- COLLECTION -->
-<section class="collection">
+<section class="collection" id="collection">
 	<ul>
 		<li class="workout workout1">
 		<img class="wr" src="images/home/wr/1.png">
-		<h2>Beach Yoga Blend</h2>
-		<p> A beginner workout at the beach that walks through a fat burning mellowing routine</p>
-		<img class="ins-pic" src="images/home/instructors/hl.png">
-		<h3 class="instructor-name">Hayley Layma</h3>
+			<div class="workoutinfo">
+				<h2>Beach Yoga Blend</h2>
+				<p> A beginner workout at the beach that walks through a fat burning mellowing routine</p>
+				<img class="ins-pic" src="images/home/instructors/hl.png">
+				<h3 class="instructor-name">Hayley Layma</h3>
+			</div>
 		
 			<div class="info">
 				<h4 class="bodytarget">Full Body</h4>	
-				<img class="time" src="images/home/clock.png">  <!-- Designed by Tobias Klepp -->
-				<h4 class="time">15</h4>
-				<img class="level" src="images/home/mountain.png"> <!-- Designed by James Bickerton -->
-				<h4 class="level">Rookie</h4>
-				<img class="equipment" src="images/home/eq.png"> <!-- Designed by Mister Pixel -->
-				<h4 class="equipment">Equipment</h4>
-				<img class="bookmark" src="images/home/bookmark.png">
-
-				 <!-- Designed by Richard Schumann -->
+				<svg class="time" viewBox="0 0 100 100"-background="new 0 0 100 100" xml:space="preserve">
+					<path d="M50,0C22.386,0,0,22.386,0,50s22.386,50,50,50c27.613,0,50-22.386,50-50S77.613,0,50,0z M50,96C24.595,96,4,75.405,4,50   S24.595,4,50,4s46,20.595,46,46S75.405,96,50,96z"/>
+					<polygon points="48,12 48,49.171 34.443,62.728 37.272,65.556 50.828,52 52,50.828 52,45.171 52,12  "/>
+				</svg> <!-- Designed by Tobias Klepp -->
+					<h4 class="time">15</h4>
+					<svg class="level" viewBox="0 0 100 100" enable-background="new 0 0 100 100">
+					<polygon points="59.811,100 19.623,100 39.717,65.194 59.811,30.391 79.906,65.194 100,100  "/>
+					<polygon points="35.658,60.679 29.18,49.457 14.59,74.729 0,100 12.958,100 33.051,65.194  "/>
+				</svg> <!-- Designed by James Bickerton -->
+					<h4 class="level">Rookie</h4>
+					<svg class="equipment" viewBox="0 0 50 50" enable-background="new 0 0 50 50">
+						<rect x="9.173" y="24.055" width="30.985" height="1.886"/>
+						<path d="M3.73,29.895c0,0.871-0.717,1.574-1.604,1.574l0,0c-0.885,0-1.605-0.703-1.605-1.574v-9.791   c0-0.869,0.721-1.572,1.605-1.572l0,0c0.887,0,1.604,0.703,1.604,1.572V29.895z"/>
+						<path d="M8.019,31.76c0,1.205-0.719,2.178-1.604,2.178l0,0c-0.888,0-1.605-0.973-1.605-2.178V18.239   c0-1.203,0.718-2.177,1.605-2.177l0,0c0.885,0,1.604,0.974,1.604,2.177V31.76z"/>
+						<path d="M46.271,29.895c0,0.871,0.717,1.574,1.604,1.574l0,0c0.887,0,1.604-0.703,1.604-1.574v-9.791   c0-0.869-0.717-1.572-1.604-1.572l0,0c-0.887,0-1.604,0.703-1.604,1.572V29.895z"/>
+						<path  d="M41.982,31.76c0,1.205,0.719,2.178,1.604,2.178l0,0c0.889,0,1.605-0.973,1.605-2.178V18.239   c0-1.203-0.717-2.177-1.605-2.177l0,0c-0.885,0-1.604,0.974-1.604,2.177V31.76z"/>
+					</svg> <!-- Designed by Mister Pixel -->
+					<h4 class="equipment">Equipment</h4>
+					<svg class="bookmark" viewBox="0 0 512 512" enable-background="new 0 0 512 512">
+					<path d="M392,428.944l-136-68l-136,68V112c0-13.234,10.767-24,24-24h224c13.233,0,24,10.766,24,24V428.944z M256,343.056l120,60   V112c0-4.411-3.589-8-8-8H144c-4.411,0-8,3.589-8,8v291.056L256,343.056z"/>
+					</svg> <!-- Designed by Richard Schumann -->
 			</div>
 		</li>
 
 		<li class="workout workout2">
 			<img class="wr" src="images/home/wr/2.png">
-			<h2>Outdoor Bike Circuit</h2>
-			<p>A beginner workout at the beach that walks through a fat burning mellowing routine</p>
-			<img class="ins-pic" src="images/home/instructors/mh.png">
-			<h3 class="instructor-name">Mark Hampton</h3>
+			<div class="workoutinfo">
+				<h2>Outdoor Bike Circuit</h2>
+				<p>A beginner workout at the beach that walks through a fat burning mellowing routine</p>
+				<img class="ins-pic" src="images/home/instructors/mh.png">
+				<h3 class="instructor-name">Mark Hampton</h3>
+			</div>
 				<div class="info">
 					<h4 class="bodytarget">Legs and Butt</h4>	
-					<img class="time" src="images/home/clock.png">  <!-- Designed by Tobias Klepp -->
+					<svg class="time" viewBox="0 0 100 100"-background="new 0 0 100 100" xml:space="preserve">
+					<path d="M50,0C22.386,0,0,22.386,0,50s22.386,50,50,50c27.613,0,50-22.386,50-50S77.613,0,50,0z M50,96C24.595,96,4,75.405,4,50   S24.595,4,50,4s46,20.595,46,46S75.405,96,50,96z"/>
+					<polygon points="48,12 48,49.171 34.443,62.728 37.272,65.556 50.828,52 52,50.828 52,45.171 52,12  "/>
+				</svg> <!-- Designed by Tobias Klepp -->
 					<h4 class="time">90</h4>
-					<img class="level" src="images/home/mountain.png"> <!-- Designed by James Bickerton -->
+					<svg class="level" viewBox="0 0 100 100" enable-background="new 0 0 100 100">
+					<polygon points="59.811,100 19.623,100 39.717,65.194 59.811,30.391 79.906,65.194 100,100  "/>
+					<polygon points="35.658,60.679 29.18,49.457 14.59,74.729 0,100 12.958,100 33.051,65.194  "/>
+				</svg> <!-- Designed by James Bickerton -->
 					<h4 class="level">Rookie</h4>
-					<img class="equipment" src="images/home/eq.png"> <!-- Designed by Mister Pixel -->
+					<svg class="equipment" viewBox="0 0 50 50" enable-background="new 0 0 50 50">
+						<rect x="9.173" y="24.055" width="30.985" height="1.886"/>
+						<path d="M3.73,29.895c0,0.871-0.717,1.574-1.604,1.574l0,0c-0.885,0-1.605-0.703-1.605-1.574v-9.791   c0-0.869,0.721-1.572,1.605-1.572l0,0c0.887,0,1.604,0.703,1.604,1.572V29.895z"/>
+						<path d="M8.019,31.76c0,1.205-0.719,2.178-1.604,2.178l0,0c-0.888,0-1.605-0.973-1.605-2.178V18.239   c0-1.203,0.718-2.177,1.605-2.177l0,0c0.885,0,1.604,0.974,1.604,2.177V31.76z"/>
+						<path d="M46.271,29.895c0,0.871,0.717,1.574,1.604,1.574l0,0c0.887,0,1.604-0.703,1.604-1.574v-9.791   c0-0.869-0.717-1.572-1.604-1.572l0,0c-0.887,0-1.604,0.703-1.604,1.572V29.895z"/>
+						<path  d="M41.982,31.76c0,1.205,0.719,2.178,1.604,2.178l0,0c0.889,0,1.605-0.973,1.605-2.178V18.239   c0-1.203-0.717-2.177-1.605-2.177l0,0c-0.885,0-1.604,0.974-1.604,2.177V31.76z"/>
+					</svg> <!-- Designed by Mister Pixel -->
 					<h4 class="equipment">Equipment</h4>
-					<img class="bookmark" src="images/home/bookmark.png"> <!-- Designed by Richard Schumann -->
+					<svg class="bookmark" viewBox="0 0 512 512" enable-background="new 0 0 512 512">
+					<path d="M392,428.944l-136-68l-136,68V112c0-13.234,10.767-24,24-24h224c13.233,0,24,10.766,24,24V428.944z M256,343.056l120,60   V112c0-4.411-3.589-8-8-8H144c-4.411,0-8,3.589-8,8v291.056L256,343.056z"/>
+					</svg> <!-- Designed by Richard Schumann -->
 			</div>
 		</li>
 		
 		<li class="workout workout3">
 		<img class="wr" src="images/home/wr/3.png">
-		<h2>Yolo Yog</h2>
-		<p>A beginner workout at the beach that walks through a fat burning mellowing routine</p>
-		<img class="ins-pic" src="images/home/instructors/al.png">
-		<h3 class="instructor-name">Adriana Lima</h3>
+		<div class="workoutinfo">
+			<h2>Yolo Yog</h2>
+			<p>A beginner workout at the beach that walks through a fat burning mellowing routine</p>
+			<img class="ins-pic" src="images/home/instructors/al.png">
+			<h3 class="instructor-name">Adriana Lima</h3>
+		</div>
 			<div class="info">
 				<h4 class="bodytarget">Full Body</h4>
-				<img class="time" src="images/home/clock.png">  <!-- Designed by Tobias Klepp -->
+				<svg class="time" viewBox="0 0 100 100"-background="new 0 0 100 100" xml:space="preserve">
+					<path d="M50,0C22.386,0,0,22.386,0,50s22.386,50,50,50c27.613,0,50-22.386,50-50S77.613,0,50,0z M50,96C24.595,96,4,75.405,4,50   S24.595,4,50,4s46,20.595,46,46S75.405,96,50,96z"/>
+					<polygon points="48,12 48,49.171 34.443,62.728 37.272,65.556 50.828,52 52,50.828 52,45.171 52,12  "/>
+				</svg> <!-- Designed by Tobias Klepp -->
 					<h4 class="time">15</h4>
-					<img class="level" src="images/home/mountain.png"> <!-- Designed by James Bickerton -->
+					<svg class="level" viewBox="0 0 100 100" enable-background="new 0 0 100 100">
+					<polygon points="59.811,100 19.623,100 39.717,65.194 59.811,30.391 79.906,65.194 100,100  "/>
+					<polygon points="35.658,60.679 29.18,49.457 14.59,74.729 0,100 12.958,100 33.051,65.194  "/>
+				</svg> <!-- Designed by James Bickerton -->
 					<h4 class="level">Rookie</h4>
-					<img class="equipment" src="images/home/eq.png"> <!-- Designed by Mister Pixel -->
+					<svg class="equipment" viewBox="0 0 50 50" enable-background="new 0 0 50 50">
+						<rect x="9.173" y="24.055" width="30.985" height="1.886"/>
+						<path d="M3.73,29.895c0,0.871-0.717,1.574-1.604,1.574l0,0c-0.885,0-1.605-0.703-1.605-1.574v-9.791   c0-0.869,0.721-1.572,1.605-1.572l0,0c0.887,0,1.604,0.703,1.604,1.572V29.895z"/>
+						<path d="M8.019,31.76c0,1.205-0.719,2.178-1.604,2.178l0,0c-0.888,0-1.605-0.973-1.605-2.178V18.239   c0-1.203,0.718-2.177,1.605-2.177l0,0c0.885,0,1.604,0.974,1.604,2.177V31.76z"/>
+						<path d="M46.271,29.895c0,0.871,0.717,1.574,1.604,1.574l0,0c0.887,0,1.604-0.703,1.604-1.574v-9.791   c0-0.869-0.717-1.572-1.604-1.572l0,0c-0.887,0-1.604,0.703-1.604,1.572V29.895z"/>
+						<path  d="M41.982,31.76c0,1.205,0.719,2.178,1.604,2.178l0,0c0.889,0,1.605-0.973,1.605-2.178V18.239   c0-1.203-0.717-2.177-1.605-2.177l0,0c-0.885,0-1.604,0.974-1.604,2.177V31.76z"/>
+					</svg> <!-- Designed by Mister Pixel -->
 					<h4 class="equipment">Equipment</h4>
-					<img class="bookmark" src="images/home/bookmark.png"> <!-- Designed by Richard Schumann -->
-			</div>
-		</li>
-		
-		<li class="workout workout4">
-		<img class="wr" src="images/home/wr/4.png">
-		<h2>Namaste Yoga Blast</h2>
-		<p>A beginner workout at the beach that walks through a fat burning mellowing routine</p>
-		<img class="ins-pic" src="images/home/instructors/al.png">
-		<h3 class="instructor-name">Adriana Lima</h3>
-			<div class="info">
-				<h4 class="bodytarget">Full Body</h4>
-				<img class="time" src="images/home/clock.png">  <!-- Designed by Tobias Klepp -->
-					<h4 class="time">60</h4>
-					<img class="level" src="images/home/mountain.png"> <!-- Designed by James Bickerton -->
-					<h4 class="level">Intermediate</h4>
-					<img class="equipment" src="images/home/eq.png"> <!-- Designed by Mister Pixel -->
-					<h4 class="equipment">Equipment</h4>
-					<img class="bookmark" src="images/home/bookmark.png"> <!-- Designed by Richard Schumann -->
-			</div>
-		</li>
-		
-		<li class="workout workout5">
-		<img class="wr" src="images/home/wr/5.png">
-		<h2>Swiss Ball Abs</h2>
-		<p>A beginner workout at the beach that walks through a fat burning mellowing routine</p>
-		<img class="ins-pic" src="images/home/instructors/kh.png">
-		<h3 class="instructor-name">Kate Hudson</h3>
-			<div class="info">
-				<h4 class="bodytarget">Full Body</h4>
-				<img class="time" src="images/home/clock.png">  <!-- Designed by Tobias Klepp -->
-					<h4 class="time">15</h4>
-					<img class="level" src="images/home/mountain.png"> <!-- Designed by James Bickerton -->
-					<h4 class="level">Advanced</h4>
-					<img class="equipment" src="images/home/eq.png"> <!-- Designed by Mister Pixel -->
-					<h4 class="equipment">Equipment</h4>
-					<img class="bookmark" src="images/home/bookmark.png"> <!-- Designed by Richard Schumann -->
-			</div>
-		</li>
-		
-		<li class="workout workout6">
-		<img class="wr" src="images/home/wr/6.png">
-		<h2>Indoor Ab Rocker</h2>
-		<p>A beginner workout at the beach that walks through a fat burning mellowing routine</p>
-		<img class="ins-pic" src="images/home/instructors/al.png">
-		<h3 class="instructor-name">Adriana Lima</h3>
-			<div class="info">
-				<h4 class="bodytarget">Full Body</h4>
-				<img class="time" src="images/home/clock.png">  <!-- Designed by Tobias Klepp -->
-					<h4 class="time">15</h4>
-					<img class="level" src="images/home/mountain.png"> <!-- Designed by James Bickerton -->
-					<h4 class="level">Rookie</h4>
-					<img class="equipment" src="images/home/eq.png"> <!-- Designed by Mister Pixel -->
-					<h4 class="equipment">Equipment</h4>
-					<img class="bookmark" src="images/home/bookmark.png"> <!-- Designed by Richard Schumann -->
-			</div>
-		</li>
-		
-		<li class="workout workout7">
-		<img  class="wr" src="images/home/wr/7.png">
-		<h2>Oblique Technique Routine</h2>
-		<p>A beginner workout at the beach that walks through a fat burning mellowing routine</p>
-		<img class="ins-pic" src="images/home/instructors/al.png">
-		<h3 class="instructor-name">Adriana Lima</h3>
-			<div class="info">
-				<h4 class="bodytarget">Abdominal</h4>
-				<img class="time" src="images/home/clock.png">  <!-- Designed by Tobias Klepp -->
-					<h4 class="time">15</h4>
-					<img class="level" src="images/home/mountain.png"> <!-- Designed by James Bickerton -->
-					<h4 class="level">Rookie</h4>
-					<img class="equipment" src="images/home/eq.png"> <!-- Designed by Mister Pixel -->
-					<h4 class="equipment">Equipment</h4>
-					<img class="bookmark" src="images/home/bookmark.png"> <!-- Designed by Richard Schumann -->
-			</div>
-		</li>
-		
-		<li class="workout workout8">
-		<img class="wr" src="images/home/wr/8.png">
-		<h2>Butt Blaster</h2>
-		<p>A beginner workout at the beach that walks through a fat burning mellowing routine</p>
-		<img class="ins-pic" src="images/home/instructors/al.png">
-		<h3 class="instructor-name">Adriana Lima</h3>
-			<div class="info">
-				<h4 class="bodytarget">Legs and Butt</h4>
-				<img class="time" src="images/home/clock.png">  <!-- Designed by Tobias Klepp -->
-				<h4 class="time">15</h4>
-				<img class="level"src="images/home/mountain.png"> <!-- Designed by James Bickerton -->
-				<h4 class="level">Rookie</h4>
-				<img class="equipment" src="images/home/eq.png"> <!-- Designed by Mister Pixel -->
-				<h4 class="equipment">Equipment</h4>
-				<img class="bookmark" src="images/home/bookmark.png"> <!-- Designed by Richard Schumann -->
-			</div>
-		</li>
-		
-		<li class="workout workout9">
-		<img class="wr" src="images/home/wr/9.png">
-		<h2>Can't Get Enough</h2>
-		<p>A beginner workout at the beach that walks through a fat burning mellowing routine</p>
-		<img class="ins-pic" src="images/home/instructors/bh.png">
-		<h3 class="instructor-name">Bob Harper</h3>
-			<div class="info">
-				<h4 class="bodytarget">Full Body</h4>
-				<img class="time" src="images/home/clock.png">  <!-- Designed by Tobias Klepp -->
-					<h4 class="time">30</h4>
-					<img class="level" src="images/home/mountain.png"> <!-- Designed by James Bickerton -->
-					<h4 class="level">Intermediate</h4>
-					<img class="equipment" src="images/home/eq.png"> <!-- Designed by Mister Pixel -->
-					<h4 class="equipment">Equipment</h4>
-					<img class="bookmark" src="images/home/bookmark.png"> <!-- Designed by Richard Schumann -->
+					<svg class="bookmark" viewBox="0 0 512 512" enable-background="new 0 0 512 512">
+					<path d="M392,428.944l-136-68l-136,68V112c0-13.234,10.767-24,24-24h224c13.233,0,24,10.766,24,24V428.944z M256,343.056l120,60   V112c0-4.411-3.589-8-8-8H144c-4.411,0-8,3.589-8,8v291.056L256,343.056z"/>
+					</svg> <!-- Designed by Richard Schumann -->
 			</div>
 		</li>
 	</ul>
-	
 
+</section>
+
+<!-- GOTOLIBRARY -->
+
+<section class="gotolibrary">
+
+	<h2><a href="library.html">See Past Workouts</a> </h2>
+	
 </section>
 
 <!-- FOOTER -->
 <footer id="contact">
-	<div class="callexpert">
+	<div class="callexpert expert">
 	<h3> Are you an expert? Subscribe to our Instructor Program!</h3>
-	<form id="form1" name="form1" class="wufoo topLabel page" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate
-	      action="https://alsu.wufoo.com/forms/zvst7ay1e2d99a/#public">
-	      <header id="header" class="info">
-	      <h2>Subscribe</h2>
-	      <div>Subscribe to our Instructor Program</div>
-	      </header>
-
-	      <ul>
-
-		      <li id="foli1" class="notranslate      ">
-		      <label class="desc" id="title1" for="Field1">
-		      Email
-		      </label>
-		      <div>
-		      <input id="Field1" name="Field1" type="email" spellcheck="false" class="field text medium" value="" maxlength="255" tabindex="1" />
-		      </div>
-		      </li> <li class="buttons ">
-		      <div>
-
-		       <input id="saveForm" name="saveForm" class="btTxt submit" 
-		          type="submit" value="Submit"
-		       /></div>
-	      </ul>
-	      </form> 
 	</div>
+	<div class="social">
+		<svg class="fblogo" viewBox="0 0 56.693 56.693" width="56.693px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M28.347,5.157c-13.6,0-24.625,11.027-24.625,24.625c0,13.6,11.025,24.623,24.625,24.623c13.6,0,24.625-11.023,24.625-24.623  C52.972,16.184,41.946,5.157,28.347,5.157z M34.864,29.679h-4.264c0,6.814,0,15.207,0,15.207h-6.32c0,0,0-8.307,0-15.207h-3.006  V24.31h3.006v-3.479c0-2.49,1.182-6.377,6.379-6.377l4.68,0.018v5.215c0,0-2.846,0-3.398,0c-0.555,0-1.34,0.277-1.34,1.461v3.163  h4.818L34.864,29.679z"/></svg>
+
+		<svg viewBox="17 176.375 48 48" enable-background="new 17 176.375 48 48">
+		<path d="M41,203.896c1.943,0,3.521-1.578,3.521-3.521c0-1.943-1.578-3.521-3.521-3.521  c-1.944,0-3.521,1.578-3.521,3.521C37.479,202.318,39.056,203.896,41,203.896z M48.602,193.584c1.061,0,1.918-0.859,1.918-1.917  c0-1.06-0.857-1.917-1.918-1.917c-1.058,0-1.916,0.857-1.916,1.917C46.686,192.725,47.544,193.584,48.602,193.584z M48.042,200.375  c0,3.889-3.153,7.042-7.042,7.042c-3.889,0-7.042-3.153-7.042-7.042c0-0.818,0.147-1.602,0.404-2.334h-3.404v9.545  c0,1.648,1.349,2.997,2.998,2.997h13.589c1.648,0,2.997-1.349,2.997-2.997v-12.545H45.59  C47.089,196.333,48.042,198.241,48.042,200.375z M41,176.375c-13.255,0-24,10.745-24,24s10.745,24,24,24s24-10.745,24-24  S54.255,176.375,41,176.375z M53.814,210.107c0,2.199-1.799,4-4,4H31.685c-2.2,0-4-1.801-4-4v-18.131c0-2.201,1.8-4,4-4h18.131  c2.199,0,4,1.799,4,4v18.131H53.814z"/>
+		</svg>
+
+		<svg viewBox="17 176.375 48 48" enable-background="new 17 176.375 48 48">
+		<path d="M41,176.375c-13.254,0-24,10.745-24,24s10.745,24,24,24c13.256,0,24-10.745,24-24S54.256,176.375,41,176.375  z M53.26,191.993c0.035-0.04,0.066-0.093,0.115-0.103c0,0-0.008,0.016-0.082,0.154c0.037,0.062,0.074,0.123,0.109,0.186  c1.312,0.254,2.285,0.582,2.285,0.795c0,0.168-0.595,0.494-1.479,0.844c0.373,0.902,0.679,1.878,0.894,2.913  c0.666,3.2,0.33,6.239-0.729,8.378c-1.791,5.91-7.276,10.216-13.774,10.216c-6.105,0-11.31-3.808-13.402-9.172  c2.389,1.767,5.334,2.821,8.533,2.821c1.784,0,3.485-0.34,5.062-0.936c-1.715,0.121-3.481-0.105-5.195-0.756  c-5.775-2.188-6.85-9.095-6.85-9.095c-0.43-2.762,0.19-2.95,1.377-0.42c0,0,1.407,2.996,5.538,4.561  c0.109,0.042,0.221,0.069,0.332,0.104c-0.07-0.033-0.143-0.062-0.213-0.1c-5.448-2.904-5.633-9.895-5.633-9.895  c-0.074-2.793,0.565-2.901,1.42-0.242c0,0,1.013,3.152,4.91,5.23c1.957,1.045,4.068,1.494,6.137,1.431  c-0.965-5.371,0.858-10.192,4.192-10.888c1.5-0.312,3.055,0.265,4.426,1.476c0.396-0.05,0.836-0.048,1.302,0.021  c1.731,0.26,3.149,0.686,3.149,0.945c0,0.232-1.131,0.764-2.604,1.246C53.143,191.807,53.201,191.896,53.26,191.993z"/>
+		</svg>
+	</div>
+
+		<div class="extra">
+			<ul > 
+				<li><a href="">about</a><span class="line">/</span></li>
+				<li><a href="mailto:hello@movemnt.com">contact us</a>
+				<span class="line">/</span></li>
+				<li><a href="http://www.alsukurr.com">site by Alsu Kurr</a></li>
+			</ul>
+		</div>
 </footer>
 </div>
 </body>
